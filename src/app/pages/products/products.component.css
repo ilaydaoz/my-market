@@ -1,0 +1,41 @@
+.product{
+    display: inline-block;
+    width: 150px;
+    margin: 0 5px 10px 0;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s ease all;
+}
+.product:hover{
+    background-color: rgba(0, 0, 255, 0.247);
+    border-color: antiquewhite;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    transform: translate(5px);
+}
+
+.product-name{
+   height: 40px;
+}
+.product img {
+   width: 100px; 
+}
+.product-price {
+   font-weight: 550;
+   color: black;
+}
+.quantity-bar button{
+   width: 15px;
+}
+.quantity-bar input{
+    width: 30px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.quantity-bar button{
+    width: 15px;
+}
+table .total{
+    font-weight: 600;
+}
